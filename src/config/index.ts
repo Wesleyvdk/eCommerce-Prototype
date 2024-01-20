@@ -1,44 +1,44 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'UI Kits',
-    value: 'ui_kits' as const,
+    label: "Shirts",
+    value: "ui_kits" as const,
     featured: [
       {
-        name: 'Editor picks',
+        name: "Creator picks",
         href: `/products?category=ui_kits`,
-        imageSrc: '/nav/ui-kits/mixed.jpg',
+        imageSrc: "/nav/ui-kits/mixed.jpg",
       },
       {
-        name: 'New Arrivals',
-        href: '/products?category=ui_kits&sort=desc',
-        imageSrc: '/nav/ui-kits/blue.jpg',
+        name: "New Arrivals",
+        href: "/products?category=ui_kits&sort=desc",
+        imageSrc: "/nav/ui-kits/blue.jpg",
       },
       {
-        name: 'Bestsellers',
-        href: '/products?category=ui_kits',
-        imageSrc: '/nav/ui-kits/purple.jpg',
+        name: "Bestsellers",
+        href: "/products?category=ui_kits",
+        imageSrc: "/nav/ui-kits/purple.jpg",
       },
     ],
   },
   {
-    label: 'Icons',
-    value: 'icons' as const,
+    label: "Hoodies",
+    value: "icons" as const,
     featured: [
       {
-        name: 'Favorite Icon Picks',
+        name: "Favorite Hoodie Picks",
         href: `/products?category=icons`,
-        imageSrc: '/nav/icons/picks.jpg',
+        imageSrc: "/nav/icons/picks.jpg",
       },
       {
-        name: 'New Arrivals',
-        href: '/products?category=icons&sort=desc',
-        imageSrc: '/nav/icons/new.jpg',
+        name: "New Arrivals",
+        href: "/products?category=icons&sort=desc",
+        imageSrc: "/nav/icons/new.jpg",
       },
       {
-        name: 'Bestselling Icons',
-        href: '/products?category=icons',
-        imageSrc: '/nav/icons/bestsellers.jpg',
+        name: "Bestselling Hoodies",
+        href: "/products?category=icons",
+        imageSrc: "/nav/icons/bestsellers.jpg",
       },
     ],
   },
-]
+];
