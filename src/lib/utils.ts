@@ -58,7 +58,9 @@ export function constructMetadata({
       creator: "@ehzgodd",
     },
     icons,
-    metadataBase: new URL("ecommerce-prototype-production.up.railway.app"),
+    metadataBase: new URL(
+      "https://ecommerce-prototype-production.up.railway.app"
+    ),
     ...(noIndex && {
       robots: {
         index: false,
